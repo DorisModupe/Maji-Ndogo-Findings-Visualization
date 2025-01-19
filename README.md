@@ -4,17 +4,20 @@
 1. [Project Overview](#project-overview)
 2. [Data Sources](#data-sources)
 3. [Tools](#tools)
-4. [Data Cleaning/Preparation](#data-cleaning/preparation)
+4. [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 5. [Exploratory Data Analysis](#exploratory-data-analysis)
 6. [Data Analysis](#data-analysis)
-7. [Results/Findings](#results/findings)
+7. [Findings](#findings)
 8. [Recommendations](#recommendations)
 9. [Limitations](#limitations)
 10. [References](#references)
 
     
 ### Project Overview
+---
 Maji Ndogo used to be a flourishing country but now,they experience draught and lack of access to clean water. This project using Power BI helps to communicate issues and solutions to concerned stakeholders.
+![MajiNdogoScrnsht](https://github.com/user-attachments/assets/d459f8ed-31aa-46b7-b0c6-02a07d54d05e)
+
 
 ### Data Sources
 The primary dataset used for this analysis is the "Md_water_services_data.xlsx" file, containing detailed information about water related issues. The original dataset used is in the file upload section as 'Md_water_services_data (2).xlsx'
@@ -23,7 +26,7 @@ The primary dataset used for this analysis is the "Md_water_services_data.xlsx" 
 - SQL - Data Cleaning
 - Power BI -  Data Analysis and Reporting
 
-### Data Cleaning/Preparation
+### Data Cleaning and Preparation
 In the initial phase preparing the data, I performed the following task
 1. Data loading and inspection.
 2. Handling null and missing values.
@@ -54,7 +57,7 @@ Interesting DAX used either to create new columns or new measures
   IF( 'project_progress'[improvement] == "Diagnose local infrastructure", "Repair infrastructure", 'project_progress'[improvement] ) )
 ```
 
-### Results/Findings
+### Findings
 The key questions served as guide to the results which influenced the visualizations provided. Some of the findings can be summarised as:
 - About 25 000 projects location is still backlogged.
 - Basic water is now accessible to 24 project location this shows there is still a long way to go.
